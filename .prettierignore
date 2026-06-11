@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Build / Dist
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore Prettier config generated folders
+coverage/
+
+# Next.js, React, Vite build folders
+.out/
+.next/
+.vite/
+
+# minified / auto generated files
+*.min.js
+*.min.css
+
+# JSON data large
+*.csv
+*.md
+
+# Backend uploads
+uploads/
+public/uploads/
+
+# Ignore compiled JS if using TS
+*.d.ts
